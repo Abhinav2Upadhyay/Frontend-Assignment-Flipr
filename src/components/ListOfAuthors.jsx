@@ -7,35 +7,36 @@ import twitter_icon from "../assets/Icons/twitter_icon.svg";
 import instagram_icon from "../assets/Icons/instagram_icon.svg";
 import linkedIn_icon from "../assets/Icons/linkedIn_icon.svg";
 
+const data = [
+    {
+        imageUrl: auther_1_image,
+        authorName: "Floyd Miles",
+        text: "Lorem ipsum dolor sit amet.",
+    },
+    {
+        imageUrl: auther_2_image,
+        authorName: "Dianne Russell",
+        text: "Lorem ipsum dolor sit amet.",
+    },
+    {
+        imageUrl: auther_3_image,
+        authorName: "Jenny Wilson",
+        text: "Lorem ipsum dolor sit amet.",
+    },
+    {
+        imageUrl: auther_4_image,
+        authorName: "Liestie Alexander",
+        text: "Lorem ipsum dolor sit amet.",
+    },
+]
 
-function ListOfAuthors() {
-    const authorsData = [
-        {
-            imageUrl: auther_1_image,
-            authorName: "Floyd Miles",
-            text: "Lorem ipsum dolor sit amet.",
-        },
-        {
-            imageUrl: auther_2_image,
-            authorName: "Dianne Russell",
-            text: "Lorem ipsum dolor sit amet.",
-        },
-        {
-            imageUrl: auther_3_image,
-            authorName: "Jenny Wilson",
-            text: "Lorem ipsum dolor sit amet.",
-        },
-        {
-            imageUrl: auther_4_image,
-            authorName: "Liestie Alexander",
-            text: "Lorem ipsum dolor sit amet.",
-        },
-    ]
+function ListOfAuthors({authorsData = data}) {
+    
 
     return (
         <>
         
-            <div className="flex w-full gap-6">
+            <div className="flex w-full gap-8">
             {authorsData.map(({ imageUrl, authorName, text }, index) => (
                 <div key={index} className="flex flex-col items-center gap-2 py-12 bg-Pink w-[25%] hover:bg-Light_Yellow cursor-pointer group">
                     <div className="flex items-center justify-center w-24 h-24 mb-4 rounded-full">

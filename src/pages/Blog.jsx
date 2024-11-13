@@ -19,7 +19,7 @@ function Blog() {
             <p className="mt-4 text-4xl font-semibold">Step-by-step guide to choosing great font pairs</p>
             <p className="mt-6">By John Doe | May 23 2022</p>
             <p className="pr-4 mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi iste perferendis recusandae alias ipsam dignissimos.</p>
-            <Button text="Read More >" />
+            <Button text="Read More >"  />
           </div>
           <div className="w-[40%]">
             <img src={image_1} alt="image" />
