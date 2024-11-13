@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-// import Negative_1 from "./"
+import logo from "../assets/images/Logo.svg";
 import facebook_icon from "../assets/Icons/facebook_icon.svg";
 import twitter_icon from "../assets/Icons/twitter_icon.svg";
 import instagram_icon from "../assets/Icons/instagram_icon.svg";
@@ -11,9 +11,12 @@ function Footer() {
   return (
     <>
       {/* <h1>Footer</h1> */}
-      <footer className="px-16 py-12 text-white bg-black">
+      <footer className="px-16 py-12 mt-24 text-white bg-black">
         <div className="flex justify-between mb-10">
-            <div className="text-2xl font-bold">{"{"}Finsweet</div>
+            <div className="text-2xl font-bold">
+            {/* {"{"}Finsweet */}
+              <img src={logo} alt="logo" />
+            </div>
             <ul className="flex items-center gap-5 font-semibold">
               <li className="cursor-pointer hover:text-sky-300 hover:border-b-2 hover:border-sky-300" onClick={() => navigate("/")}>Home</li>
               <li className="cursor-pointer hover:text-sky-300 hover:border-b-2 hover:border-sky-300" onClick={() => navigate("/blog")}>Blog</li>
