@@ -7,6 +7,9 @@ import CategoryCards from "../components/CategoryCards";
 import ListOfAuthors from "../components/ListOfAuthors";
 import FeaturedIn from "../components/FeaturedIn";
 import arrow_icon from "../assets/Icons/arrow_icon.svg";
+import Button from "../components/Button";
+import BgImage from "../assets/images/bgImageForHomePageSection.svg";
+import JoinOurTeamSection from "../components/JoinOurTeamSection";
 
 function Home() {
 
@@ -23,7 +26,7 @@ function Home() {
             <p>By Lorem ipsum | Aug 23 2022</p>
             <p className="mt-5 w-[75%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam fugit dese facere odio sunt alias labore maiores minus quae ad.</p>
             <div className="mt-4">
-              <button className="px-8 py-2 mt-6 text-black font-semibold  bg-[#ffd050] hover:bg-opacity-80 active:bg-opacity-100">Read More {">"}</button>
+              <Button text="Read More >" />
             </div>
           </div>
         </div>
@@ -39,7 +42,7 @@ function Home() {
             <p className="mt-5">By John Doe on | May 22 2022</p>
             <h4 className="my-3 text-2xl font-semibold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam error sed quibusdam.</h4>
             <p className="">Lorem ipsum dolor, adipisicing elit. Dolore suscipit saepe nostrum aut debitis in doloribus dignissimos maiores distinctio quam!</p>
-            <button className="px-8 py-2 mt-6 text-black font-semibold  bg-[#ffd050] hover:bg-opacity-80 active:bg-opacity-100">Read More {">"}</button>
+              <Button text="Read More >" />
           </div>
         </div>
         {/* all posts */}
@@ -101,13 +104,13 @@ function Home() {
       {/* section 5 - () */}
       <section className="px-16 mt-24">
         <div className="relative w-full">
-          <img className="bg-gray-300 w-[70%] h-[450px]" src="" alt="" />
-          <div className="absolute bottom-0 w-[40%] right-0 bg-white px-12 py-10 flex flex-col gap-3">
+          <img className=" w-[70%] " src={BgImage} alt="" />
+          <div className="absolute bottom-0 w-[40%] right-0 bg-white p-20 shadow-sm flex flex-col gap-3">
             <h1>WHY WE STARTED</h1>
             <h2 className="text-3xl font-semibold">It started out as a simple idea and evolved into our passion</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore voluptas aperiam non amet sint vitae modi! Incidunt consequatur dicta voluptatibus?</p>
             <div className="mt-2">
-              <button className="px-10 py-2 font-semibold bg-Yellow hover:bg-opacity-80 active:bg-opacity-100">Discover Our Story {">"}</button>
+              <Button text="Discover Our Story >" />
             </div>
           </div>
         </div>
@@ -157,17 +160,9 @@ function Home() {
         </div>
       </section>
 
-      {/* section 9 - () */}
+      {/* section 9 - (JoinOurTeamSection) */}
       <section className="px-16 mt-24">
-        <div className="flex justify-center">
-          <div className="flex flex-col items-center w-[32%] gap-4">
-            <h1 className="text-3xl font-bold text-center">Join our team to be a part of our story</h1>
-            <p className="text-center text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem deserunt cupiditate dolore.</p>
-            <div>
-              <button className="px-10 py-2 font-semibold bg-Yellow hover:bg-opacity-80 active:bg-opacity-100">Join Now</button>
-            </div>
-          </div>
-        </div>
+        <JoinOurTeamSection />
       </section>
     </>
   );
