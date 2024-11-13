@@ -18,8 +18,8 @@ function Home() {
       {/* <h1 className="text-xl font-semibold">Home Page</h1> */}
       {/* section 1 - (banner) */}
       <section className="relative w-full">
-        <img className="w-full" src={banner} alt="banner image" />
-        <div className="absolute bg-black bg-opacity-30 w-full h-full text-white top-0 z-[1]">
+        <img className="absolute w-full z-[-10]"  src={banner} alt="banner image" />
+        <div className=" bg-black bg-opacity-30 w-full  text-white top-0 z-[1] h-[670px]">
           <div className="w-[60%] pl-16 py-20">
             <p className="mb-4">POSTED ON STARTUP</p>
             <h1 className="mb-6 text-5xl font-bold">Step-by-step guide to choosing great font pairs</h1>
