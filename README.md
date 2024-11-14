@@ -7,8 +7,6 @@
 - [Live Demo](#live-demo)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Contact](#contact)
 - [Screenshots](#screenshots)
 
 ---
