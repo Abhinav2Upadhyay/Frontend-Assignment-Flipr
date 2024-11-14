@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import post_image from "../assets/Images/two-women-in-front-of-dry-erase-board-1181533-1.svg";
+import post_image from "../assets/images/two-women-in-front-of-dry-erase-board-1181533-1.svg";
 import CategoryCards from "../components/CategoryCards";
 
 

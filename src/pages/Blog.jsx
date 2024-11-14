@@ -1,9 +1,10 @@
-import image_1 from "../assets/Images/blogPageImage.svg";
+// import image_1 from "../assets/images/blogPageImage.svg";
+import image_1 from "../assets/images/two-women-in-front-of-dry-erase-board-1181533-1.svg";
 import Button from "../components/Button";
-import post_1_image from "../assets/Images/two-women-in-front-of-dry-erase-board-1181533-1.svg";
-import post_2_image from "../assets/Images/photo-of-people-doing-handshakes-3183197.svg";
-import post_3_image from "../assets/Images/photo-of-woman-looking-at-man-3183173.svg";
-import post_4_image from "../assets/Images/photo-of-people-walking-on-hallway-3182811.svg";
+import post_1_image from "../assets/images/two-women-in-front-of-dry-erase-board-1181533-1.svg";
+import post_2_image from "../assets/images/photo-of-people-doing-handshakes-3183197.svg";
+import post_3_image from "../assets/images/photo-of-woman-looking-at-man-3183173.svg";
+import post_4_image from "../assets/images/photo-of-people-walking-on-hallway-3182811.svg";
 import CategoryCards from "../components/CategoryCards";
 import JoinOurTeamSection from "../components/JoinOurTeamSection";
 import { useNavigate } from "react-router-dom";

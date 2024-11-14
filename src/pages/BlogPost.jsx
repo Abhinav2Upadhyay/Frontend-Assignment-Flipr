@@ -1,9 +1,9 @@
 import startupIcon from "../assets/Icons/startupIcon.svg";
-import user_image from "../assets/Images/user_image.svg";
-import section_2_image from "../assets/Images/photo-of-woman-wearing-eyeglasses-3184405.svg"
-import section_4_post_1_image from "../assets/Images/two-women-in-front-of-dry-erase-board-1181533-1.svg"
-import section_4_post_2_image from "../assets/Images/photo-of-people-doing-handshakes-3183197.svg"
-import section_4_post_3_image from "../assets/Images/photo-of-woman-looking-at-man-3183173.svg"
+import user_image from "../assets/images/user_image.svg";
+import section_2_image from "../assets/images/photo-of-woman-wearing-eyeglasses-3184405.svg"
+import section_4_post_1_image from "../assets/images/two-women-in-front-of-dry-erase-board-1181533-1.svg"
+import section_4_post_2_image from "../assets/images/photo-of-people-doing-handshakes-3183197.svg"
+import section_4_post_3_image from "../assets/images/photo-of-woman-looking-at-man-3183173.svg"
 import JoinOurTeamSection from "../components/JoinOurTeamSection";
 
 function BlogPost() {

@@ -1,15 +1,15 @@
-// import banner from "../assets/Images/banner.svg" 
-import banner from "../assets/Images/white-concrete-building-1838640.svg"
-import buildingImage from "../assets/Images/white-concrete-building-1838640.svg"
-import shape_1 from "../assets/Images/shape-1.svg";
-import shape_2 from "../assets/Images/shape-2.svg";
-import user_image from "../assets/Images/user_image.svg";
+// import banner from "../assets/images/banner.svg" 
+import banner from "../assets/images/white-concrete-building-1838640.svg"
+import buildingImage from "../assets/images/white-concrete-building-1838640.svg"
+import shape_1 from "../assets/images/shape-1.svg";
+import shape_2 from "../assets/images/shape-2.svg";
+import user_image from "../assets/images/user_image.svg";
 import CategoryCards from "../components/CategoryCards";
 import ListOfAuthors from "../components/ListOfAuthors";
 import FeaturedIn from "../components/FeaturedIn";
 import arrow_icon from "../assets/Icons/arrow_icon.svg";
 import Button from "../components/Button";
-import BgImage from "../assets/Images/bgImageForHomePageSection.svg";
+import BgImage from "../assets/images/bgImageForHomePageSection.svg";
 import JoinOurTeamSection from "../components/JoinOurTeamSection";
 import { useNavigate } from "react-router-dom";
 

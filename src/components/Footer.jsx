@@ -1,5 +1,5 @@
 import { useLocation, useNavigate } from "react-router-dom";
-import logo from "../assets/Images/Logo.svg";
+import logo from "../assets/images/Logo.svg";
 import facebook_icon from "../assets/Icons/facebook_icon.svg";
 import twitter_icon from "../assets/Icons/twitter_icon.svg";
 import instagram_icon from "../assets/Icons/instagram_icon.svg";
