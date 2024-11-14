@@ -1,5 +1,4 @@
-// import banner from "../assets/images/banner.svg" 
-import banner from "../assets/images/white-concrete-building-1838640.svg"
+import banner from "../assets/images/banner.svg" 
 import buildingImage from "../assets/images/white-concrete-building-1838640.svg"
 import shape_1 from "../assets/images/shape-1.svg";
 import shape_2 from "../assets/images/shape-2.svg";

@@ -1,5 +1,4 @@
-// import image_1 from "../assets/images/blogPageImage.svg";
-import image_1 from "../assets/images/two-women-in-front-of-dry-erase-board-1181533-1.svg";
+import image_1 from "../assets/images/blogPageImage.svg";
 import Button from "../components/Button";
 import post_1_image from "../assets/images/two-women-in-front-of-dry-erase-board-1181533-1.svg";
 import post_2_image from "../assets/images/photo-of-people-doing-handshakes-3183197.svg";
