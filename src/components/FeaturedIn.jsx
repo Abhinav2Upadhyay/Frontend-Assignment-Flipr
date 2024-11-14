@@ -1,8 +1,8 @@
-import logo_1 from "../assets/images/logo_1.svg";
-import logo_2 from "../assets/images/logo_2.svg";
-import logo_3 from "../assets/images/logo_3.svg";
-import logo_4 from "../assets/images/logo_4.svg";
-import logo_5 from "../assets/images/logo_5.svg";
+import logo_1 from "../assets/images/Logo_1.svg";
+import logo_2 from "../assets/images/Logo_2.svg";
+import logo_3 from "../assets/images/Logo_3.svg";
+import logo_4 from "../assets/images/Logo_4.svg";
+import logo_5 from "../assets/images/Logo_5.svg";
 
 function FeaturedIn() {
     const logosImage = [
