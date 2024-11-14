@@ -13,7 +13,7 @@ function Author() {
     <>
       {/* <h1>Author</h1> */}
       {/* section 1 */}
-      <section className="relative flex justify-center w-full py-24 bg-pink-100">
+      <section  className="relative flex justify-center w-full py-24 bg-pink-100">
         <div className="flex w-[70%]">
           <img src={section_1_image} alt="" />
           <div className="px-10 pt-5">
@@ -35,10 +35,10 @@ function Author() {
       </section>
 
       {/* section 2 */}
-      <section className="flex justify-center">
+      <section  className="flex justify-center">
         <div className="w-[70%] mt-20">
-          <h1 className="mb-20 text-4xl font-semibold">My Posts</h1>
-          <div className="flex items-center gap-8 mb-12">
+          <h1 data-aos="fade-up" className="mb-20 text-4xl font-semibold">My Posts</h1>
+          <div data-aos="fade-up" className="flex items-center gap-8 mb-12">
             <img src={post_image_1} alt="" />
             <div>
               <p className="mb-3 text-lg font-semibold text-purple-600">BUSINESS</p>
@@ -46,7 +46,7 @@ function Author() {
               <p className="text-gray-600">Lorem ipsum dolor ipsum dolor sit amet consectetur adipisicing elit. Libero est repellendus tempora officiis?</p>
             </div>
           </div>
-          <div className="flex items-center gap-8">
+          <div data-aos="fade-up" className="flex items-center gap-8">
             <img src={post_image_2} alt="" />
             <div>
               <p className="mb-3 text-lg font-semibold text-purple-600">ECONOMY</p>

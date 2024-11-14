@@ -21,9 +21,9 @@ function Category() {
       </section>
 
       {/* section 2 */}
-      <section className="flex px-16 mt-24">
-        <div className="w-[70%] flex flex-col gap-12">
-          <div className="flex items-center gap-6 ">
+      <section  className="flex px-16 mt-24">
+        <div  className="w-[70%] flex flex-col gap-12">
+          <div data-aos="fade-up" className="flex items-center gap-6 ">
             <img className="w-[42%]" src={post_image} alt="" />
             <div className="pr-5">
               <p className="mb-3 font-semibold">{categoryName || "Business"}</p>
@@ -31,7 +31,7 @@ function Category() {
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, illo ad! Molestiae nemo exercitationem enim optio repudiandae porro cumque quas.</p>
             </div>
           </div>
-          <div className="flex items-center gap-6 ">
+          <div data-aos="fade-up" className="flex items-center gap-6 ">
             <img className="w-[42%]" src={post_image} alt="" />
             <div className="pr-5">
               <p className="mb-3 font-semibold">{categoryName || "Business"}</p>
@@ -39,7 +39,7 @@ function Category() {
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, illo ad! Molestiae nemo exercitationem enim optio repudiandae porro cumque quas.</p>
             </div>
           </div>
-          <div className="flex items-center gap-6 ">
+          <div data-aos="fade-up" className="flex items-center gap-6 ">
             <img className="w-[42%]" src={post_image} alt="" />
             <div className="pr-5">
               <p className="mb-3 font-semibold">{categoryName || "Business"}</p>
@@ -47,7 +47,7 @@ function Category() {
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, illo ad! Molestiae nemo exercitationem enim optio repudiandae porro cumque quas.</p>
             </div>
           </div>
-          <div className="flex items-center gap-6 ">
+          <div data-aos="fade-up" className="flex items-center gap-6 ">
             <img className="w-[42%]" src={post_image} alt="" />
             <div className="pr-5">
               <p className="mb-3 font-semibold">{categoryName || "Business"}</p>
@@ -57,7 +57,7 @@ function Category() {
           </div>
         </div>
         {/* categories and All tages */}
-        <div className="w-[30%] pl-16">
+        <div data-aos="fade-left" className="w-[30%] pl-16">
           <h1 className="mb-12 text-3xl font-semibold">Categories</h1>
           <div className="flex flex-col gap-4">
             <CategoryCards isCategoryPage={true} />

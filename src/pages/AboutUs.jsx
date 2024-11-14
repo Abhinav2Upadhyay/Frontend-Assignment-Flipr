@@ -39,7 +39,7 @@ function AboutUs() {
     <>
       {/* <h1>AboutUs</h1> */}
       {/* section 1 */}
-      <section className="relative flex justify-end px-16 pt-32">
+      <section  className="relative flex justify-end px-16 pt-32">
         <div className="absolute top-24 left-44 px-16 py-10 bg-white border-[1px] border-gray-200 w-[34%] z-[1]">
           <h2 className="text-lg">ABOUT US</h2>
           <p className="text-3xl font-bold">We are a team of content writers who share their learnings</p>
@@ -50,7 +50,7 @@ function AboutUs() {
       </section>
 
       {/* section 2 */}
-      <section className="px-16">
+      <section data-aos="fade-up" className="px-16">
         <div className="relative w-full bg-gray-300">
           <img className="" src={BgImage} alt="" />
           <div className="absolute bottom-0 flex pl-24">
@@ -87,7 +87,7 @@ function AboutUs() {
       </section>
 
       {/* section 3 */}
-      <section className="flex items-center justify-between px-16 mt-24">
+      <section data-aos="fade-up" className="flex items-center justify-between px-16 mt-24">
         <div className="w-[50%] ">
           <p className="mb-4 text-4xl font-semibold">Our team of creatives</p>
           <p className="mb-4 text-2xl font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint eveniet nam accusamus!</p>
@@ -100,7 +100,7 @@ function AboutUs() {
       </section>
 
       {/* section 4 */}
-      <section className="flex items-center justify-between px-16 mt-24">
+      <section data-aos="fade-up" className="flex items-center justify-between px-16 mt-24">
       <div className="w-[45%]">
           <img className="w-full" src={section_4_image} alt="" />
         </div>
@@ -112,7 +112,7 @@ function AboutUs() {
       </section>
 
       {/* section 5 - (List of Authors) */}
-      <section className="px-16 mt-24">
+      <section data-aos="fade-up" className="px-16 mt-24">
         <h1 className="mb-12 text-4xl font-semibold text-center">List of Authors</h1>
         <div className="flex flex-col gap-8">
           <ListOfAuthors />
@@ -121,7 +121,7 @@ function AboutUs() {
       </section>
 
       {/* section 6 - (JoinOurTeamSection) */}
-      <section className="px-16 mt-24">
+      <section data-aos="fade-up" className="px-16 mt-24">
         <JoinOurTeamSection />
       </section>
     </>

@@ -19,7 +19,7 @@ function Home() {
     <>
       {/* <h1 className="text-xl font-semibold">Home Page</h1> */}
       {/* section 1 - (banner) */}
-      <section className="relative w-full">
+      <section  className="relative w-full">
         <img className="absolute w-full z-[-10]"  src={banner} alt="banner image" />
         <div className=" bg-black bg-opacity-30 w-full  text-white top-0 z-[1] h-[670px]">
           <div className="w-[60%] pl-16 py-20">
@@ -35,7 +35,7 @@ function Home() {
       </section>
       
       {/* section 2 - (featured post and all posts) */}
-      <section className="flex px-16 mt-24">
+      <section data-aos="fade-up" className="flex px-16 mt-24">
         {/* featured post */}
         <div className="w-[50%]">
           <h2 className="mb-6 text-2xl font-semibold">Featured Post</h2>
@@ -75,7 +75,7 @@ function Home() {
       </section>
 
       {/* section 3 - (about us and our mission) */}
-      <section className="px-16 mt-24">
+      <section data-aos="fade-up" className="px-16 mt-24">
         <div className="flex justify-end">
           <img className="h-[21px]" src={shape_2} alt="shape_2" />
           <img className="h-[21px]" src={shape_1} alt="shape_1" />
@@ -96,7 +96,7 @@ function Home() {
       </section>
 
       {/* section 4 - (Choose a category)*/}
-      <section className="px-16 mt-24">
+      <section data-aos="fade-up" className="px-16 mt-24">
         <h1 className="mb-12 text-4xl font-semibold text-center">Choose A Category</h1>
         <div>
           <CategoryCards />
@@ -104,7 +104,7 @@ function Home() {
       </section>
 
       {/* section 5 - () */}
-      <section className="px-16 mt-24">
+      <section data-aos="fade-up" className="px-16 mt-24">
         <div className="relative w-full">
           <img className=" w-[70%] " src={BgImage} alt="" />
           <div className="absolute bottom-0 w-[40%] right-0 bg-white p-20 shadow-sm flex flex-col gap-3">
@@ -119,18 +119,18 @@ function Home() {
       </section>
 
       {/* section 6 - (List of Authors) */}
-      <section className="px-16 mt-24">
+      <section data-aos="fade-up" className="px-16 mt-24">
         <h1 className="mb-12 text-4xl font-semibold text-center">List of Authors</h1>
         <ListOfAuthors />
       </section>
 
       {/* section 7 - (Featured In) */}
-      <section className="px-16 mt-24">
+      <section data-aos="fade-up" className="px-16 mt-24">
         <FeaturedIn />
       </section>
 
       {/* section 8 - () */}
-      <section className="px-16 mt-24">
+      <section data-aos="fade-up" className="px-16 mt-24">
         <div className="flex px-20 py-16 bg-orange-100">
           {/* part 1 */}
           <div className="w-[40%] pb-20 border-r-2 pr-24">
@@ -163,7 +163,7 @@ function Home() {
       </section>
 
       {/* section 9 - (JoinOurTeamSection) */}
-      <section className="px-16 mt-24">
+      <section data-aos="fade-up" className="px-16 mt-24">
         <JoinOurTeamSection />
       </section>
     </>

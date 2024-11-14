@@ -30,12 +30,12 @@ function BlogPost() {
       </section>
 
       {/* section 2 (post image) */}
-      <section className="flex justify-center mt-24">
+      <section data-aos="fade-up" className="flex justify-center mt-24">
         <img className="w-[90%]" src={section_2_image} alt="" />
       </section>
 
       {/* section 3 (post content) */}
-      <section className="flex flex-col items-center mt-24">
+      <section data-aos="fade-up" className="flex flex-col items-center mt-24">
         <div className="w-[60%] mb-10">
           <h1 className="mb-10 text-3xl font-semibold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, dicta eligendi.</h1>
           <p>Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam voluptate, aperiam dolores quasi fuga similique quos ad voluptas nemo architecto? Lorem ipsum dolor sit amet. ipsum dolor sit amet consectetur adipisicing elit. Tempora cum esse voluptate, similique explicabo impedit nostrum eos officiis doloribus, voluptas ex iste! Dolores aut facilis cum sapiente blanditiis ipsam vitae.</p>
@@ -62,7 +62,7 @@ function BlogPost() {
       </section>
 
       {/* section 4 (related posts) */}
-      <section className="px-16 mt-24">
+      <section data-aos="fade-up" className="px-16 mt-24">
         <h1 className="mb-12 text-3xl font-semibold">What to read next</h1>
         <div className="flex justify-between ">
           <div onClick={() => window.scrollTo(0,0)} className="w-[32%] cursor-pointer p-5 hover:shadow-lg rounded-lg">
@@ -88,7 +88,7 @@ function BlogPost() {
       </section>
 
       {/* section 5 - (JoinOurTeamSection) */}
-      <section className="px-16 mt-24">
+      <section data-aos="fade-up" className="px-16 mt-24">
         <JoinOurTeamSection />
       </section>
     </>

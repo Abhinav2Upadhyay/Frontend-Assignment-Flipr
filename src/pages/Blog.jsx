@@ -31,11 +31,11 @@ function Blog() {
       </section>
 
       {/* section 2 (all posts) */}
-      <section className="px-16 mt-24">
+      <section  className="px-16 mt-24">
         <h1 className="mb-20 text-4xl font-semibold">All Posts</h1>
         <div className="flex flex-col gap-16">
           {/* post 1 */}
-          <div className="flex gap-12">
+          <div data-aos="fade-right" className="flex gap-12">
             <img src={post_1_image} alt="Post 1 image" />
             <div className="py-12">
               <p className="mb-6 text-lg text-purple-600">STARTUP</p>
@@ -45,7 +45,7 @@ function Blog() {
           </div>
 
           {/* post 2 */}
-          <div className="flex gap-12">
+          <div data-aos="fade-left" className="flex gap-12">
             <img src={post_2_image} alt="Post 2 image" />
             <div className="py-12">
               <p className="mb-6 text-lg text-purple-600">BUSINESS</p>
@@ -55,7 +55,7 @@ function Blog() {
           </div>
 
           {/* post 3 */}
-          <div className="flex gap-12">
+          <div data-aos="fade-right" className="flex gap-12">
             <img src={post_3_image} alt="Post 3 image" />
             <div className="py-12">
               <p className="mb-6 text-lg text-purple-600">STARTUP</p>
@@ -65,7 +65,7 @@ function Blog() {
           </div>
 
           {/* post 4 */}
-          <div className="flex gap-12">
+          <div data-aos="fade-left" className="flex gap-12">
             <img src={post_4_image} alt="Post 4 image" />
             <div className="py-12">
               <p className="mb-6 text-lg text-purple-600">TECHNOLOGY</p>
@@ -75,7 +75,7 @@ function Blog() {
           </div>
 
           {/* post 5 */}
-          <div className="flex gap-12">
+          <div data-aos="fade-right" className="flex gap-12">
             <img src={post_1_image} alt="Post 5 image" />
             <div className="py-12">
               <p className="mb-6 text-lg text-purple-600">ECONOMY</p>
@@ -100,7 +100,7 @@ function Blog() {
       </section>
 
       {/* section 3 - (Choose a category)*/}
-      <section className="px-16 mt-24">
+      <section data-aos="fade-up" className="px-16 mt-24">
         <h1 className="mb-12 text-4xl font-semibold ">All Categories</h1>
         <div>
           <CategoryCards />
@@ -109,7 +109,7 @@ function Blog() {
       
 
       {/* section 4 - (JoinOurTeamSection) */}
-      <section className="px-16 mt-24">
+      <section data-aos="fade-up" className="px-16 mt-24">
         <JoinOurTeamSection />
       </section>
     </>

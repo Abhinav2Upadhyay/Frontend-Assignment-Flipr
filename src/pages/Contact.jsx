@@ -12,7 +12,7 @@ function Contact() {
       </section>
 
       {/* section 2 */}
-      <section className="flex justify-center">
+      <section data-aos="fade-up" className="flex justify-center">
         <div className="w-[60%]">
           <div className="flex px-16 py-12 mb-8 text-white bg-purple-700">
             <div className="w-[50%] pr-8">

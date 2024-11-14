@@ -9,6 +9,8 @@ import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Author from "./pages/Author";
 import { useEffect } from "react";
+import Aos from "aos";
+import 'aos/dist/aos.css';
 
 function App() {
   const { pathname } = useLocation();
@@ -16,6 +18,15 @@ function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
+
+  useEffect(() => {
+    Aos.init({
+      // Animation duration in milliseconds
+      duration: 1000, 
+      // Animation only happens once as you scroll down
+      once: true,     
+    });
+  }, []);
   
   return (
     <>
