@@ -31,7 +31,7 @@ function Blog() {
       </section>
 
       {/* section 2 (all posts) */}
-      <section  className="px-6 mt-12">
+      <section  className="px-6 mt-12 sm:px-16">
         <h1 className="mb-10 text-2xl font-semibold sm:mb-20 sm:text-4xl">All Posts</h1>
         <div className="flex flex-col gap-16">
           {/* post 1 */}
@@ -100,7 +100,7 @@ function Blog() {
       </section>
 
       {/* section 3 - (Choose a category)*/}
-      <section data-aos="fade-up" className="px-6 mt-12">
+      <section data-aos="fade-up" className="px-6 mt-12 sm:px-16">
         <h1 className="mb-12 text-2xl font-semibold sm:text-4xl ">All Categories</h1>
         <div>
           <CategoryCards />

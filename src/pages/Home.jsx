@@ -21,7 +21,7 @@ function Home() {
       {/* section 1 - (banner) */}
       <section className="relative w-full">
         <img className="absolute w-full h-full object-cover z-[-10]" src={banner} alt="banner image" />
-        <div className="bg-black bg-opacity-50 sm:bg-opacity-30 w-full text-white top-0 z-[1] h-[550px] md:h-[500px] sm:h-[400px] flex items-center sm:justify-start justify-center sm:px-0 px-6">
+        <div className="bg-black bg-opacity-50 sm:bg-opacity-30 w-full text-white top-0 z-[1] h-[550px] md:h-[500px] sm:h-[400px] flex items-center sm:justify-start justify-center sm:px-10 px-6">
           <div className="sm:w-[90%]  sm:px-6 py-10 ">
             <p className="mb-2 text-sm md:mb-4 md:text-base">POSTED ON STARTUP</p>
             <h1 className="mb-4 text-3xl font-bold leading-tight md:mb-6 md:text-4xl lg:text-5xl">
