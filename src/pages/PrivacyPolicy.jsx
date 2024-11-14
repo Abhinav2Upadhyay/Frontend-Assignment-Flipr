@@ -5,7 +5,7 @@ function PrivacyPolicy() {
       {/* section 1 */}
       <section className="flex justify-center bg-pink-100">
         <div className="flex flex-col items-center sm:w-[50%] py-20">
-          <h1 className="mb-4 text-2xl font-semibold sm:text-3xl">Privacy Policy</h1>
+          <h1 className="mb-4 text-3xl font-semibold sm:text-3xl">Privacy Policy</h1>
           <p className="text-gray-600">Last Update on 27 January 2022</p>
         </div>
       </section>
