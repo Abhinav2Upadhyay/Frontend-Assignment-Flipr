@@ -1,15 +1,15 @@
-import section_3_image from "../assets/images/ground-group-growth-hands-461049.svg";
-import section_4_image from "../assets/images/three-persons-sitting-on-the-stairs-talking-with-each-other-1438072.svg";
-import shapes_image from "../assets/images/shapes.svg";
+import section_3_image from "../assets/Images/ground-group-growth-hands-461049.svg";
+import section_4_image from "../assets/Images/three-persons-sitting-on-the-stairs-talking-with-each-other-1438072.svg";
+import shapes_image from "../assets/Images/shapes.svg";
 import ListOfAuthors from "../components/ListOfAuthors";
-import auther_5_image from "../assets/images/man-in-yellow-button-up-shirt-wearing-black-framed-eyeglasses-7562313.svg";
-import auther_6_image from "../assets/images/woman-in-white-and-black-striped-shirt-wearing-black-sunglasses-3671083.svg";
-import auther_7_image from "../assets/images/content-unshaven-man-covering-eye-with-yellow-flower-5262459.svg";
-import auther_8_image from "../assets/images/cheerful-young-ethnic-male-millennial-standing-near-stone-wall-and-smiling-6147118.svg";
+import auther_5_image from "../assets/Images/man-in-yellow-button-up-shirt-wearing-black-framed-eyeglasses-7562313.svg";
+import auther_6_image from "../assets/Images/woman-in-white-and-black-striped-shirt-wearing-black-sunglasses-3671083.svg";
+import auther_7_image from "../assets/Images/content-unshaven-man-covering-eye-with-yellow-flower-5262459.svg";
+import auther_8_image from "../assets/Images/cheerful-young-ethnic-male-millennial-standing-near-stone-wall-and-smiling-6147118.svg";
 import JoinOurTeamSection from "../components/JoinOurTeamSection";
-import shape_1 from "../assets/images/shape-1.svg";
-import shape_2 from "../assets/images/shape-2.svg";
-import BgImage from "../assets/images/bgImageForAboutUsPageSection.svg";
+import shape_1 from "../assets/Images/shape-1.svg";
+import shape_2 from "../assets/Images/shape-2.svg";
+import BgImage from "../assets/Images/bgImageForAboutUsPageSection.svg";
 
 const autherData = [
   {

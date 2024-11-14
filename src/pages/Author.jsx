@@ -3,10 +3,10 @@ import twitter_icon from "../assets/Icons/twitter_icon.svg";
 import instagram_icon from "../assets/Icons/instagram_icon.svg";
 import linkedIn_icon from "../assets/Icons/linkedIn_icon.svg";
 import section_1_image from "../assets/Images/close-up-photography-of-man-wearing-sunglasses-1212984.svg";
-import shape_1 from "../assets/images/shape-1.svg";
-import shape_2 from "../assets/images/shape-2.svg";
-import post_image_1 from "../assets/images/stained-glass-high-rise-building-1106476.svg";
-import post_image_2 from "../assets/images/man-in-black-crew-neck-t-shirt-sitting-beside-woman-in-gray-crew-neck-t-shirt-3153201.svg";
+import shape_1 from "../assets/Images/shape-1.svg";
+import shape_2 from "../assets/Images/shape-2.svg";
+import post_image_1 from "../assets/Images/stained-glass-high-rise-building-1106476.svg";
+import post_image_2 from "../assets/Images/man-in-black-crew-neck-t-shirt-sitting-beside-woman-in-gray-crew-neck-t-shirt-3153201.svg";
 
 function Author() {
   return (
