@@ -26,13 +26,15 @@ function Contact() {
               <p className="mt-2 text-lg opacity-80">hello@finsweet.com</p>
             </div>
           </div>
-          <input className="w-full px-5 py-4 border-[1px] border-gray-300 mb-4" type="text" placeholder="Full Name" />
-          <input className="w-full px-5 py-4 border-[1px] border-gray-300 mb-4" type="text" placeholder="Your Email" />
-          <input className="w-full px-5 py-4 border-[1px] border-gray-300 mb-4" type="text" placeholder="Query Related" />
-          <textarea className="w-full px-5 py-4 border-[1px] border-gray-300 mb-4" placeholder="Message"></textarea>
-          <button className="w-full py-3 text-black font-semibold  bg-[#ffd050] hover:bg-opacity-80 active:bg-opacity-100">
-            Send Message
-          </button>
+          <form onSubmit={(e) => e.preventDefault()}>
+            <input className="w-full px-5 py-4 border-[1px] border-gray-300 mb-4" required type="text" placeholder="Full Name" />
+            <input className="w-full px-5 py-4 border-[1px] border-gray-300 mb-4" required type="text" placeholder="Your Email" />
+            <input className="w-full px-5 py-4 border-[1px] border-gray-300 mb-4" required type="text" placeholder="Query Related" />
+            <textarea className="w-full px-5 py-4 border-[1px] border-gray-300 mb-4" placeholder="Message"></textarea>
+            <button type="submit" className="w-full py-3 text-black font-semibold  bg-[#ffd050] hover:bg-opacity-80 active:bg-opacity-100">
+              Send Message
+            </button>
+          </form>
         </div>
       </section>
     </>

@@ -10,8 +10,10 @@ import arrow_icon from "../assets/Icons/arrow_icon.svg";
 import Button from "../components/Button";
 import BgImage from "../assets/images/bgImageForHomePageSection.svg";
 import JoinOurTeamSection from "../components/JoinOurTeamSection";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
 
   return (
     <>
@@ -26,7 +28,7 @@ function Home() {
             <p>By Lorem ipsum | Aug 23 2022</p>
             <p className="mt-5 w-[75%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam fugit dese facere odio sunt alias labore maiores minus quae ad.</p>
             <div className="mt-4">
-              <Button text="Read More >" />
+              <Button text="Read More >" onClickHandler={() => navigate("/blog-post")} />
             </div>
           </div>
         </div>
@@ -42,29 +44,29 @@ function Home() {
             <p className="mt-5">By John Doe on | May 22 2022</p>
             <h4 className="my-3 text-2xl font-semibold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam error sed quibusdam.</h4>
             <p className="">Lorem ipsum dolor, adipisicing elit. Dolore suscipit saepe nostrum aut debitis in doloribus dignissimos maiores distinctio quam!</p>
-              <Button text="Read More >" />
+              <Button text="Read More >" onClickHandler={() => navigate("/blog-post")} />
           </div>
         </div>
         {/* all posts */}
         <div className="w-[50%]">
         <div className="flex items-center justify-between pl-12">
           <h1 className="mb-6 text-2xl font-semibold">All Posts</h1>
-          <span className="text-blue-600 cursor-pointer">View All</span>
+          <button className="text-blue-600 hover:underline" onClick={() => navigate("/blog")}>View All</button>
         </div>
           <div className="h-full py-5 pl-8 overflow-y-auto">
-          <div className="cursor-pointer p-7 hover:bg-yellow-50">
+            <div onClick={() => navigate("/blog-post")} className="cursor-pointer p-7 hover:bg-yellow-50">
               <h5 className="text-sm">By John Aug 22 2021</h5>
               <p className="pr-12 mt-2 text-xl">8 Figma design systems that you can download for free today.</p>
             </div>
-            <div className="cursor-pointer p-7 hover:bg-yellow-50">
+            <div onClick={() => navigate("/blog-post")} className="cursor-pointer p-7 hover:bg-yellow-50">
               <h5 className="text-sm">By John Aug 22 2021</h5>
               <p className="pr-12 mt-2 text-xl">8 Figma design systems that you can download for free today.</p>
             </div>
-            <div className="cursor-pointer p-7 hover:bg-yellow-50">
+            <div onClick={() => navigate("/blog-post")} className="cursor-pointer p-7 hover:bg-yellow-50">
               <h5 className="text-sm">By John Aug 22 2021</h5>
               <p className="pr-12 mt-2 text-xl">8 Figma design systems that you can download for free today.</p>
             </div>
-            <div className="cursor-pointer p-7 hover:bg-yellow-50">
+            <div onClick={() => navigate("/blog-post")} className="cursor-pointer p-7 hover:bg-yellow-50">
               <h5 className="text-sm">By John Aug 22 2021</h5>
               <p className="pr-12 mt-2 text-xl">8 Figma design systems that you can download for free today.</p>
             </div>
@@ -83,7 +85,7 @@ function Home() {
             <h1 className="mb-6 font-semibold">ABOUT US</h1>
             <p className="mb-3 text-2xl font-semibold">We are a community of content writers who share their learings</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus commodi ex aut omnis inventore.</p>
-            <button className="mt-6 font-bold text-purple-700 hover:underline">Read More {">"}</button>
+            <button className="mt-6 font-bold text-purple-700 hover:underline" onClick={() => navigate("/about-us")}>Read More {">"}</button>
           </div>
           <div className="w-[50%] pr-10 p-12 ">
             <h1 className="mb-6 font-semibold">OUR MISION</h1>
@@ -110,7 +112,7 @@ function Home() {
             <h2 className="text-3xl font-semibold">It started out as a simple idea and evolved into our passion</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore voluptas aperiam non amet sint vitae modi! Incidunt consequatur dicta voluptatibus?</p>
             <div className="mt-2">
-              <Button text="Discover Our Story >" />
+              <Button text="Discover Our Story >" onClickHandler={() => navigate("/about-us")} />
             </div>
           </div>
         </div>

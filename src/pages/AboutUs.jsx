@@ -9,6 +9,7 @@ import auther_8_image from "../assets/images/cheerful-young-ethnic-male-millenni
 import JoinOurTeamSection from "../components/JoinOurTeamSection";
 import shape_1 from "../assets/images/shape-1.svg";
 import shape_2 from "../assets/images/shape-2.svg";
+import BgImage from "../assets/images/bgImageForAboutUsPageSection.svg";
 
 const autherData = [
   {
@@ -50,8 +51,8 @@ function AboutUs() {
 
       {/* section 2 */}
       <section className="px-16">
-        <div className="w-full h-[360px] relative bg-gray-300">
-          <img src="" alt="" />
+        <div className="relative w-full bg-gray-300">
+          <img className="" src={BgImage} alt="" />
           <div className="absolute bottom-0 flex pl-24">
             <img className="h-[18px]" src={shape_1} alt="" />
             <img className="h-[18px]" src={shape_2} alt="" />

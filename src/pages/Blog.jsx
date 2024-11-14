@@ -6,8 +6,11 @@ import post_3_image from "../assets/images/photo-of-woman-looking-at-man-3183173
 import post_4_image from "../assets/images/photo-of-people-walking-on-hallway-3182811.svg";
 import CategoryCards from "../components/CategoryCards";
 import JoinOurTeamSection from "../components/JoinOurTeamSection";
+import { useNavigate } from "react-router-dom";
 
 function Blog() {
+  const navigate = useNavigate();
+
   return (
     <>
       {/* <h1>Blog</h1> */}
@@ -19,7 +22,7 @@ function Blog() {
             <p className="mt-4 text-4xl font-semibold">Step-by-step guide to choosing great font pairs</p>
             <p className="mt-6">By John Doe | May 23 2022</p>
             <p className="pr-4 mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi iste perferendis recusandae alias ipsam dignissimos.</p>
-            <Button text="Read More >"  />
+            <Button text="Read More >" onClickHandler={() => navigate("/blog-post")}  />
           </div>
           <div className="w-[40%]">
             <img src={image_1} alt="image" />

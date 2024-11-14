@@ -1,6 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import Button from "./Button";
 
 function JoinOurTeamSection() {
+  const navigate = useNavigate()
+
   return (
     <div className="flex justify-center">
       <div className="flex flex-col items-center w-[32%] gap-4">
@@ -9,7 +12,7 @@ function JoinOurTeamSection() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem deserunt cupiditate dolore.
         </p>
         <div>
-          <Button text="Join Now" />
+          <Button text="Join Now" onClickHandler={() => navigate("/contact")} />
         </div>
       </div>
     </div>

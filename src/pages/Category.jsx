@@ -1,18 +1,22 @@
+import { useParams } from "react-router-dom";
 import post_image from "../assets/images/two-women-in-front-of-dry-erase-board-1181533-1.svg";
 import CategoryCards from "../components/CategoryCards";
 
 
 function Category() {
+  const { categoryName } = useParams();
+  console.log(categoryName);
+
   return (
     <>
       {/* <h1>Category</h1> */}
       {/* section 1 */}
       <section className="flex justify-center bg-pink-100">
         <div className="flex flex-col items-center w-[50%] my-20">
-        <h1 className="mb-4 text-5xl font-bold">Business</h1>
+        <h1 className="mb-4 text-5xl font-bold">{categoryName || "Business"}</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, doloremque.</p>
         <p className="mb-4">Lorem ipsum dolor sit amet consectetur.</p>
-        <p className="font-semibold">BLOG {">"} BUSINESS</p>
+        <p className="font-semibold">BLOG {">"} {categoryName || "Business"}</p>
         </div>
       </section>
 
@@ -22,7 +26,7 @@ function Category() {
           <div className="flex items-center gap-6 ">
             <img className="w-[42%]" src={post_image} alt="" />
             <div className="pr-5">
-              <p className="mb-3 font-semibold">BUSINESS</p>
+              <p className="mb-3 font-semibold">{categoryName || "Business"}</p>
               <p className="mb-4 text-3xl font-semibold ">Top 6 free website mockup tools 2022</p>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, illo ad! Molestiae nemo exercitationem enim optio repudiandae porro cumque quas.</p>
             </div>
@@ -30,7 +34,7 @@ function Category() {
           <div className="flex items-center gap-6 ">
             <img className="w-[42%]" src={post_image} alt="" />
             <div className="pr-5">
-              <p className="mb-3 font-semibold">BUSINESS</p>
+              <p className="mb-3 font-semibold">{categoryName || "Business"}</p>
               <p className="mb-4 text-3xl font-semibold ">Step-by-step guide to choosing great font pairs</p>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, illo ad! Molestiae nemo exercitationem enim optio repudiandae porro cumque quas.</p>
             </div>
@@ -38,7 +42,7 @@ function Category() {
           <div className="flex items-center gap-6 ">
             <img className="w-[42%]" src={post_image} alt="" />
             <div className="pr-5">
-              <p className="mb-3 font-semibold">BUSINESS</p>
+              <p className="mb-3 font-semibold">{categoryName || "Business"}</p>
               <p className="mb-4 text-3xl font-semibold ">Ten free foogle fonts that you should use</p>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, illo ad! Molestiae nemo exercitationem enim optio repudiandae porro cumque quas.</p>
             </div>
@@ -46,7 +50,7 @@ function Category() {
           <div className="flex items-center gap-6 ">
             <img className="w-[42%]" src={post_image} alt="" />
             <div className="pr-5">
-              <p className="mb-3 font-semibold">BUSINESS</p>
+              <p className="mb-3 font-semibold">{categoryName || "Business"}</p>
               <p className="mb-4 text-3xl font-semibold ">What did I learn from doing 50+ design sprints?</p>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, illo ad! Molestiae nemo exercitationem enim optio repudiandae porro cumque quas.</p>
             </div>

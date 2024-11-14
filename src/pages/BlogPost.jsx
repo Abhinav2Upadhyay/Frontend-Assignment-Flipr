@@ -7,6 +7,7 @@ import section_4_post_3_image from "../assets/images/photo-of-woman-looking-at-m
 import JoinOurTeamSection from "../components/JoinOurTeamSection";
 
 function BlogPost() {
+
   return (
     <>
       {/* <h1>BlogPost</h1> */}
@@ -64,19 +65,19 @@ function BlogPost() {
       <section className="px-16 mt-24">
         <h1 className="mb-12 text-3xl font-semibold">What to read next</h1>
         <div className="flex justify-between ">
-          <div className="w-[32%] cursor-pointer p-5 hover:shadow-lg rounded-lg">
+          <div onClick={() => window.scrollTo(0,0)} className="w-[32%] cursor-pointer p-5 hover:shadow-lg rounded-lg">
             <img className="w-full mb-6" src={section_4_post_1_image} alt="" />
             <p>By john Doe | Aug 23, 2021</p>
             <h1 className="mt-4 text-2xl font-semibold">AUX Case Study Creating a Studious Environment for Students:</h1>
             <p className="mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam maiores explicabo odit, quibusdam inventore assumenda rem? Distinctio eum veritatis deleniti!</p>
           </div>
-          <div className="w-[32%] cursor-pointer p-5 hover:shadow-lg rounded-lg">
+          <div onClick={() => window.scrollTo(0,0)} className="w-[32%] cursor-pointer p-5 hover:shadow-lg rounded-lg">
             <img className="w-full mb-6" src={section_4_post_2_image} alt="" />
             <p>By john Doe | Aug 23, 2021</p>
             <h1 className="mt-4 text-2xl font-semibold">AUX Case Study Creating a Studious Environment for Students:</h1>
             <p className="mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam maiores explicabo odit, quibusdam inventore assumenda rem? Distinctio eum veritatis deleniti!</p>
           </div>
-          <div className="w-[32%] cursor-pointer p-5 hover:shadow-lg rounded-lg">
+          <div onClick={() => window.scrollTo(0,0)} className="w-[32%] cursor-pointer p-5 hover:shadow-lg rounded-lg">
             <img className="w-full mb-6" src={section_4_post_3_image} alt="" />
             <p>By john Doe | Aug 23, 2021</p>
             <h1 className="mt-4 text-2xl font-semibold">AUX Case Study Creating a Studious Environment for Students:</h1>

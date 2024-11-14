@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import MainLayout from "./layout/MainLayout";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
@@ -8,8 +8,15 @@ import Category from "./pages/Category";
 import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Author from "./pages/Author";
+import { useEffect } from "react";
 
 function App() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  
   return (
     <>
       {/* <h1 className="text-3xl font-bold ">Frontend Project</h1> */}
@@ -20,7 +27,9 @@ function App() {
           <Route path="/blog-post" element={<BlogPost />} />
           <Route path="/about-us" element={<AboutUs />} />     
           <Route path="/category" element={<Category />} />
+          <Route path="/category/:categoryName" element={<Category />} />
           <Route path="/author" element={<Author />} /> 
+          <Route path="/author/:authorName" element={<Author />} /> 
           <Route path="/contact" element={<Contact />} />      
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Route>

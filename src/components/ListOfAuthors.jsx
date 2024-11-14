@@ -6,6 +6,7 @@ import facebook_icon from "../assets/Icons/facebook_icon.svg";
 import twitter_icon from "../assets/Icons/twitter_icon.svg";
 import instagram_icon from "../assets/Icons/instagram_icon.svg";
 import linkedIn_icon from "../assets/Icons/linkedIn_icon.svg";
+import { useNavigate } from "react-router-dom";
 
 const data = [
     {
@@ -31,6 +32,7 @@ const data = [
 ]
 
 function ListOfAuthors({authorsData = data}) {
+    const navigate = useNavigate();
     
 
     return (
@@ -38,7 +40,7 @@ function ListOfAuthors({authorsData = data}) {
         
             <div className="flex w-full gap-8">
             {authorsData.map(({ imageUrl, authorName, text }, index) => (
-                <div key={index} className="flex flex-col items-center gap-2 py-12 bg-Pink w-[25%] hover:bg-Light_Yellow cursor-pointer group">
+                <div onClick={() => navigate(`/author/${authorName}`)} key={index} className="flex flex-col items-center gap-2 py-12 bg-Pink w-[25%] hover:bg-Light_Yellow cursor-pointer group hover:scale-[1.04] duration-300 hover:shadow-xl">
                     <div className="flex items-center justify-center w-24 h-24 mb-4 rounded-full">
                     {imageUrl && <img className="w-full h-full" src={imageUrl} alt={authorName} />}
                     </div>
