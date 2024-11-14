@@ -15,14 +15,14 @@ function FeaturedIn() {
 
     return (
         <>
-            <div className="flex items-center justify-between">
-                <div className="w-40 ">
-                    <p className="text-sm">We are</p>
-                    <h1 className="text-xl font-semibold">Featured In</h1>
+            <div className="flex flex-col items-center justify-between sm:flex-row">
+                <div className="flex gap-4 mb-5 sm:w-40 sm:block sm:mb-0">
+                    <p className="text-lg sm:text-sm">We are</p>
+                    <h1 className="text-lg sm:font-semibold sm:text-xl">Featured In</h1>
                 </div>
-                <div className="flex items-center justify-between w-[80%]">
+                <div className="flex items-center justify-center gap-5 sm:gap-0 sm:justify-between flex-wrap sm:w-[80%] w-[100%]">
                     {logosImage.map((logo, index) => (
-                        <img key={index} src={logo.imageUrl} alt="logo" />
+                        <img className="sm:w-[15%] w-[90px]" key={index} src={logo.imageUrl} alt="logo" />
                     ))}
                 </div>
             </div>

@@ -38,9 +38,9 @@ function ListOfAuthors({authorsData = data}) {
     return (
         <>
         
-            <div className="flex w-full gap-8">
+            <div className="flex flex-col w-full gap-8 sm:flex-row">
             {authorsData.map(({ imageUrl, authorName, text }, index) => (
-                <div onClick={() => navigate(`/author/${authorName}`)} key={index} className="flex flex-col items-center gap-2 py-12 bg-Pink w-[25%] hover:bg-Light_Yellow cursor-pointer group hover:scale-[1.04] duration-300 hover:shadow-xl">
+                <div onClick={() => navigate(`/author/${authorName}`)} key={index} className="flex flex-col items-center gap-2 py-12 bg-Pink sm:w-[25%] hover:bg-Light_Yellow cursor-pointer group hover:scale-[1.04] duration-300 hover:shadow-xl">
                     <div className="flex items-center justify-center w-24 h-24 mb-4 rounded-full">
                     {imageUrl && <img className="w-full h-full" src={imageUrl} alt={authorName} />}
                     </div>

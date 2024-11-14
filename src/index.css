@@ -14,3 +14,13 @@ h5,
 h6 {
   font-family: "Sen", serif;
 }
+
+section {
+  font-size: 12px;
+}
+
+@media (min-width: 640px) {
+  section {
+    font-size: 16px; 
+  }
+}

@@ -44,9 +44,9 @@ function CategoryCards({isCategoryPage = false}) {
                 ))
             )}
             {!isCategoryPage && (
-                <div className="flex w-full gap-6">
+                <div className="flex flex-col w-full gap-6 sm:flex-row">
                 {categoryData.map(({ imageUrl, categoryName, text }, index) => (
-                    <div onClick={() => navigate(`/category/${categoryName}`)} key={index} className="flex flex-col gap-3 p-8 border-2 border-gray-200 w-[25%] hover:bg-Yellow cursor-pointer group hover:scale-[1.04] duration-300 hover:border-none hover:shadow-xl">
+                    <div onClick={() => navigate(`/category/${categoryName}`)} key={index} className="flex flex-col gap-3 p-8 border-2 border-gray-200 sm:w-[25%] hover:bg-Yellow cursor-pointer group hover:scale-[1.04] duration-300 hover:border-none hover:shadow-xl">
                         <div className="flex items-center justify-center w-12 h-12 bg-yellow-100 group-hover:bg-white rounded-xl ">
                         {imageUrl && <img className="" src={imageUrl} alt={categoryName} />}
                         </div>
